@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0+1v7fiYlSpL9PhH7ik8tB/fHop2UvFb8M3i1LWg7y4=",
+  "Hash": "Df3C3HYQGWdx+ONJIcntHv1gDYPqBz/KogDJDSacm94=",
   "Source": "CurrencyCalc",
   "BasePath": "_content/CurrencyCalc",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "CurrencyCalc\\wwwroot",
+      "Name": "CurrencyCalc/wwwroot",
       "Source": "CurrencyCalc",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CurrencyCalc.styles.css",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/obj/Debug/net7.0/scopedcss/bundle/CurrencyCalc.styles.css",
       "SourceId": "CurrencyCalc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "CurrencyCalc.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CurrencyCalc.styles.css"
+      "OriginalItemSpec": "/Users/pernillepersson/RiderProjects/Currency/obj/Debug/net7.0/scopedcss/bundle/CurrencyCalc.styles.css"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CurrencyCalc.bundle.scp.css",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/obj/Debug/net7.0/scopedcss/projectbundle/CurrencyCalc.bundle.scp.css",
       "SourceId": "CurrencyCalc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "CurrencyCalc.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CurrencyCalc.bundle.scp.css"
+      "OriginalItemSpec": "/Users/pernillepersson/RiderProjects/Currency/obj/Debug/net7.0/scopedcss/projectbundle/CurrencyCalc.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/open-iconic/README.md",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\css\\site.css",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/css/site.css",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\favicon.png",
+      "Identity": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/favicon.png",
       "SourceId": "CurrencyCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MadMe\\Desktop\\tunka\\CurrencyCalc\\wwwroot\\",
+      "ContentRoot": "/Users/pernillepersson/RiderProjects/Currency/wwwroot/",
       "BasePath": "_content/CurrencyCalc",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -269,7 +269,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     }
   ]
 }
