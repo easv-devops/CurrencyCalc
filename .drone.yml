@@ -24,3 +24,9 @@ steps:
         - dotnet sonarscanner begin /k:"$SONARKEY" /d:sonar.host.url="http://sonar.setgo.dk:9000"  /d:sonar.token="$SONARSECRET"
         - dotnet build
         - dotnet sonarscanner end /d:sonar.token="$SONARSECRET"
+          
+          
+    - name: build-docker-image
+      image: docker
+      commands:
+          - docker build -t currencycalc:latest .
