@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CurrencyCalc
 build_property.RootNamespace = CurrencyCalc
-build_property.ProjectDir = /Users/pernillepersson/RiderProjects/CurrencyCalc/
+build_property.ProjectDir = C:\Users\MadMe\RiderProjects\CurrencyCalc\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/pernillepersson/RiderProjects/CurrencyCalc
+build_property.MSBuildProjectDirectory = C:\Users\MadMe\RiderProjects\CurrencyCalc
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/App.razor]
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/_Imports.razor]
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-cprj0hf6g8
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-m3v4n6nn7f
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-usf8e60gy6
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-l77e95f1z9
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/pernillepersson/RiderProjects/CurrencyCalc/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/MadMe/RiderProjects/CurrencyCalc/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

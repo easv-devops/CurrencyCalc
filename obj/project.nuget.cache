@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WBOLNAVEWhmmBzb0wUMyIvjfcT5Y4BNuuY0/L7VJK+Ok5R7zMga3d5j82VsYRnD8HSFbsQgOFjzwnqnmw0WLg==",
+  "dgSpecHash": "DNs+ktiRSvUz2AViTK7prMlyQOgAFxuC2QbJNhYCnkREVRGjzvMglDGUHunqxWrvooVdSVQ3WAureHZGEryr2g==",
   "success": true,
-  "projectFilePath": "/Users/pernillepersson/RiderProjects/CurrencyCalc/CurrencyCalc.csproj",
+  "projectFilePath": "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc\\CurrencyCalc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
