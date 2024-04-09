@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pernillepersson/RiderProjects/Currency/CurrencyCalc.csproj",
+      "projectUniqueName": "/Users/pernillepersson/RiderProjects/CurrencyCalc/CurrencyCalc.csproj",
       "projectName": "CurrencyCalc",
-      "projectPath": "/Users/pernillepersson/RiderProjects/Currency/CurrencyCalc.csproj",
+      "projectPath": "/Users/pernillepersson/RiderProjects/CurrencyCalc/CurrencyCalc.csproj",
       "packagesPath": "/Users/pernillepersson/.nuget/packages/",
-      "outputPath": "/Users/pernillepersson/RiderProjects/Currency/obj/",
+      "outputPath": "/Users/pernillepersson/RiderProjects/CurrencyCalc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/pernillepersson/.nuget/NuGet/NuGet.Config"
