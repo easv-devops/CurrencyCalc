@@ -1,5 +1,5 @@
 ﻿version: '3.8'
-
+ 
 services:
   currencycalc:
     image: currencycalc
@@ -7,18 +7,24 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"  # Adjust port mappings as needed
+      - "8080:8080"
 
-  mysql:
-    image: mysql:latest
+  post-database:
+    image: mysql
     restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: 123  # Change this to your desired root password
-      MYSQL_DATABASE: conversion_history  # Change this to your desired database name
-      MYSQL_USER: admin  # Change this to your desired database username
-      MYSQL_PASSWORD: 123  # Change this to your desired database password
     volumes:
-      - mysql_data:/var/lib/mysql
+      - ./db/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: CurrencyCalc
+    ports:
+      - 63306:3306
 
-volumes:
-  mysql_data:
+  flyway:
+    image: flyway/flyway:10
+    command: migrate
+    volumes:
+      - ./db:/flyway/sql
+      - ./db:/flyway/conf
+    depends_on:
+      - post-database

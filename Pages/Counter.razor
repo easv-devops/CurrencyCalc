@@ -1,18 +1,73 @@
-﻿@page "/counter"
+﻿@page "/converter"
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Currency Converter</PageTitle>
 
-<h1>Counter</h1>
+<h1>Currency Converter</h1>
 
-<p role="status">Current count: @currentCount</p>
+<label for="currency1">Source:</label>
+<select id="currency1" @bind="fromCurrency">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="GBP">GBP</option>
+    <option value="JPY">JPY</option>
+    <option value="AUD">AUD</option>
+</select>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<label for="currency2">Target:</label>
+<select id="currency2" @bind="toCurrency">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="GBP">GBP</option>
+    <option value="JPY">JPY</option>
+    <option value="AUD">AUD</option>
+</select>
+
+<input type="number" id="quantity" @bind="amount" min="1" >
+
+<button class="btn btn-primary" @onclick="ConvertSelected">Convert</button>
+
+<br/>
+<p>@result</p>
 
 @code {
-    private int currentCount = 0;
+    
+    private string fromCurrency = "";
+    private string toCurrency = "";
 
-    private void IncrementCount()
+    private decimal amount;
+
+    private string result = "";
+
+    private void ConvertSelected()
     {
-        currentCount++;
+        Dictionary<string, decimal> rates = new Dictionary<string, decimal>
+        {
+            {"USD", 1m},
+            {"EUR", 0.93m},
+            {"GBP", 0.76m},
+            {"JPY", 130.53m},
+            {"AUD", 1.31m}
+        };
+        
+        if (!rates.ContainsKey(fromCurrency) || !rates.ContainsKey(toCurrency))
+        {
+            result = "Unsupported currency.";
+            return;
+        }
+
+        decimal convertedAmount = ConvertCurrency(amount, fromCurrency, toCurrency, rates);
+        result = $"{amount} {fromCurrency} is {convertedAmount} {toCurrency}.";
+        
+        
     }
+    
+    static decimal ConvertCurrency(decimal amount, string fromCurrency, string toCurrency, Dictionary<string, decimal> rates)
+    {
+        decimal rateToUSD = rates[fromCurrency];
+        decimal amountInUSD = amount / rateToUSD;
+        decimal targetRate = rates[toCurrency];
+        return amountInUSD * targetRate;
+    }
+
+    
 }

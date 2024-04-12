@@ -8,25 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/pernillepersson/.nuget/packages/": {}
+    "C:\\Users\\MadMe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pernillepersson/RiderProjects/Currency/CurrencyCalc.csproj",
+      "projectUniqueName": "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc\\CurrencyCalc.csproj",
       "projectName": "CurrencyCalc",
-      "projectPath": "/Users/pernillepersson/RiderProjects/Currency/CurrencyCalc.csproj",
-      "packagesPath": "/Users/pernillepersson/.nuget/packages/",
-      "outputPath": "/Users/pernillepersson/RiderProjects/Currency/obj/",
+      "projectPath": "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc\\CurrencyCalc.csproj",
+      "packagesPath": "C:\\Users\\MadMe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/pernillepersson/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\MadMe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/Users/pernillepersson/.dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/pernillepersson/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

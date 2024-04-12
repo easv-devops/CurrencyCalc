@@ -1,0 +1,25 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  currencycalc:
+    build:
+      context: "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/CurrencyCalc.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net7.0/CurrencyCalc.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      NUGET_PACKAGES: "C:\\Users\\MadMe\\.nuget\\packages"
+      NUGET_FALLBACK_PACKAGES: "C:\\Users\\MadMe\\.nuget\\packages"
+    image: "currencycalc:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\MadMe\\.nuget\\packages:/root/.nuget/fallbackpackages"
+    - "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc:/app:rw"
+    - "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc:/src:rw"
+    working_dir: "/app"
