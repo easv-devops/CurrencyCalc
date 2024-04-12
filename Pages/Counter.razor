@@ -1,4 +1,5 @@
 ﻿@page "/converter"
+@using CurrencyCalc.Data
 
 <PageTitle>Currency Converter</PageTitle>
 
@@ -29,6 +30,35 @@
 <br/>
 <p>@result</p>
 
+<br/>
+
+<div>
+    <h3>My Table</h3>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Source</th>
+                <th>Target</th>
+                <th>Value</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var record in records)
+            {
+                <tr>
+                    <td>@record.Date</td>
+                    <td>@record.Source</td>
+                    <td>@record.Target</td>
+                    <td>@record.Value</td>
+                    <td>@record.Result</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 @code {
     
     private string fromCurrency = "";
@@ -69,5 +99,46 @@
         return amountInUSD * targetRate;
     }
 
+    List<History> records;
+
+    protected override async Task OnInitializedAsync()
+    {
+    // Fetch data from the database
+        records = await FetchRecordsFromDatabase();
+    }
+    
+    // Method to fetch records from the database
+    private async Task<List<History>> FetchRecordsFromDatabase()
+    {
+    // Open a connection to the database
+        using var connection = await DbConnectionFactory.CreateConnectionAsync();
+
+    // Define your SQL query
+        string query = "SELECT * FROM CalcHistory";
+
+    // Execute the query and fetch records
+        using var command = connection.CreateCommand();
+        command.CommandText = query;
+
+    // Initialize list to hold records
+        var records = new List<History>();
+
+    // Execute reader and populate records
+        using var reader = await command.ExecuteReaderAsync();
+        while (await reader.ReadAsync())
+        {
+            var record = new History()
+            {
+                Date = reader.GetDateTime(0),
+                Source = reader.GetString(1),
+                Target = reader.GetString(2),
+                Value = reader.GetInt32(3),
+                Result = reader.GetFloat(4)
+            };
+            records.Add(record);
+        }
+
+        return records;
+    }
     
 }
