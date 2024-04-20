@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "DNs+ktiRSvUz2AViTK7prMlyQOgAFxuC2QbJNhYCnkREVRGjzvMglDGUHunqxWrvooVdSVQ3WAureHZGEryr2g==",
+  "dgSpecHash": "6PFIoIZ+FX/qjoQN0qz8OMBtpG5t1xpArIkueBQM7y6k2YTywEqK/ZbByLcrBgVbYb4k5i4KovsjiCl5yeYZRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\MadMe\\RiderProjects\\CurrencyCalc\\CurrencyCalc.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MadMe\\.nuget\\packages\\serilog\\4.0.0-dev-02149\\serilog.4.0.0-dev-02149.nupkg.sha512",
+    "C:\\Users\\MadMe\\.nuget\\packages\\serilog.sinks.console\\5.1.0-dev-00943\\serilog.sinks.console.5.1.0-dev-00943.nupkg.sha512",
+    "C:\\Users\\MadMe\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\MadMe\\.nuget\\packages\\serilog.sinks.periodicbatching\\4.0.0\\serilog.sinks.periodicbatching.4.0.0.nupkg.sha512",
+    "C:\\Users\\MadMe\\.nuget\\packages\\serilog.sinks.seq\\7.0.1-dev-00286\\serilog.sinks.seq.7.0.1-dev-00286.nupkg.sha512",
+    "C:\\Users\\MadMe\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
