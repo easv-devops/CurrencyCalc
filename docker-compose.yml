@@ -9,6 +9,16 @@ services:
     ports:
       - "8080:8080"
 
+  seq:
+    image: datalust/seq
+    ports:
+      - 5341:5341
+      - 5342:80
+    volumes:
+      - rps_seq_data1:/data
+    environment:
+      - ACCEPT_EULA=Y
+  
   post-database:
     image: mysql
     restart: always
@@ -29,19 +39,7 @@ services:
     depends_on:
       - post-database
         
-  featurehub:
-    image: featurehub/party-server:latest
-    restart: always
-    volumes:
-      - featurehub-h2-data:/db
-    ports:
-      - 8085:8085
-  app:
-    build:
-      context: .
-      dockerfile: Demo/Dockerfile
-    depends_on: 
-      - featurehub
-        
 volumes: 
   featurehub-h2-data:
+  
+  rps_seq_data1:

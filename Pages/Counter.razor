@@ -1,4 +1,5 @@
 ﻿@page "/converter"
+@using CurrencyCalc.Data
 
 <PageTitle>Currency Converter</PageTitle>
 
@@ -29,8 +30,11 @@
 <br/>
 <p>@result</p>
 
+<br/>
+
+
 @code {
-    
+
     private string fromCurrency = "";
     private string toCurrency = "";
 
@@ -42,13 +46,13 @@
     {
         Dictionary<string, decimal> rates = new Dictionary<string, decimal>
         {
-            {"USD", 1m},
-            {"EUR", 0.93m},
-            {"GBP", 0.76m},
-            {"JPY", 130.53m},
-            {"AUD", 1.31m}
+            { "USD", 1m },
+            { "EUR", 0.93m },
+            { "GBP", 0.76m },
+            { "JPY", 130.53m },
+            { "AUD", 1.31m }
         };
-        
+
         if (!rates.ContainsKey(fromCurrency) || !rates.ContainsKey(toCurrency))
         {
             result = "Unsupported currency.";
@@ -57,10 +61,11 @@
 
         decimal convertedAmount = ConvertCurrency(amount, fromCurrency, toCurrency, rates);
         result = $"{amount} {fromCurrency} is {convertedAmount} {toCurrency}.";
-        
+
+        MonitorService.Log.Debug("Did some converting");
         
     }
-    
+
     static decimal ConvertCurrency(decimal amount, string fromCurrency, string toCurrency, Dictionary<string, decimal> rates)
     {
         decimal rateToUSD = rates[fromCurrency];
@@ -69,5 +74,7 @@
         return amountInUSD * targetRate;
     }
 
+   
+    }
     
 }
